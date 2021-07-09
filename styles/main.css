@@ -1,0 +1,94 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+header {
+    background-color: goldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+header .brand {
+    font-size: 3em;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+	overflow: hidden;
+	background-color: rgb(100, 128, 128);
+	display: flex;
+	justify-content: flex-end; 
+  }
+
+nav li {
+	display: inline;
+	margin: 0 1em;
+  }
+
+nav a {
+	color: white;
+}
+nav a:hover {
+	color: lightsalmon;
+}
+nav a:active {
+	color: lightgreen;
+}
+
+.main_section {
+    display: flex;
+    margin-left: 2em;
+}
+
+.main_image img {
+    width: 100%;    
+}
+
+aside {
+    margin: 0 2em;
+    flex: 1;
+}
+
+footer {
+    background-color: goldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+footer .brand {
+    font-size: 3em;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.friends {
+    direction: flex;
+    flex-flow:row wrap;
+    
+}
+
+.dorothy {
+    width: 25%;
+    height: 25%;
+    
+}
+
+.tin {
+    width: 25%;
+    height: 25%;
+}
+
+.scare {
+    width: 25%;
+    height: 25%;
+}
+
+.beav {
+    width: 25%;
+    height: 25%;
+}
