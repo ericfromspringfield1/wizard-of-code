@@ -46,7 +46,8 @@ nav a:active {
 }
 
 .main_image img {
-    width: 100%;    
+    width: 100%; 
+    padding: 10px;   
 }
 
 aside {
@@ -66,29 +67,16 @@ footer .brand {
     color: whitesmoke;
 }
 
-.friends {
-    direction: flex;
-    flex-flow:row wrap;
+.main_friends {
+    display: flex;
+    margin: 0 2em;
+    flex: 4;
+    
     
 }
 
-.dorothy {
-    width: 25%;
-    height: 25%;
-    
-}
+.friend {
+    width: 250px;
+    height: 300px;
 
-.tin {
-    width: 25%;
-    height: 25%;
-}
-
-.scare {
-    width: 25%;
-    height: 25%;
-}
-
-.beav {
-    width: 25%;
-    height: 25%;
 }
