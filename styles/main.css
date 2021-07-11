@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(148, 162, 167);
     margin: 0;
 }
 
@@ -51,8 +51,15 @@ nav a:active {
 }
 
 aside {
-    margin: 0 2em;
+    margin: 1em 3em;
     flex: 1;
+    background-color: rgb(206, 223, 238);
+    padding: 2rem;
+    border: 2pt solid rgb(3, 36, 78);
+}
+
+article {
+    
 }
 
 footer {
@@ -69,16 +76,33 @@ footer .brand {
 
 .main_friends {
     display: flex;
-    margin: 0 2em;
-    flex: 4;
+    flex: 3; 
+    background-color:rgb(3, 36, 78);
+    padding: 2em;
+    justify-content: space-evenly;
+    
+}
+
+.friendsTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    
+}
+
+.friendText {
+    flex-flow: row wrap;
+    align-self: center;
+    margin-top: 4em;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
     
     
 }
 
-
-
 .friend {
     width: 250px;
     height: 300px;
-
-}   
+    border-radius: 50%;
+    border: 1pt rgb(3, 36, 78) solid;
+}  
